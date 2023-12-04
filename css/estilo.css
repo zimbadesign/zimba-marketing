@@ -1,0 +1,500 @@
+/* ZIMBA COMUNICAÇÃO E DESIGN - 2023 */
+/* CSS ZIMBA DESIGN zimbacom.com @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING *//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+/**//* TOPO *//* TOPO *//**//* TOPO *//* TOPO *//* TOPO *//**///* TOPO *//* TOPO */
+
+
+.slider-intro{
+    background-image: url(../imgs/background-slider-zimba-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.topo{
+  padding: 7px 0 7px 0;
+}
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin: 0 0 3px 0;
+  padding-right: 18px;
+  padding-left: 18px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #ffbd02;
+/*  text-shadow: 0px 1px 12px #20bc5b, 0px 1px 12px #20bc5b, 0px 1px 12px #20bc5b, 0px 1px 12px #20bc5b;*/
+}
+
+/*.navbar .collapse .navbar-nav .nav-item .nav-link span{
+  background-color: #25d366;
+  padding: 5px 10px;
+  border-radius: 55px;
+  text-align: center;
+  cursor: pointer;
+  color: #180e2e;
+  font-weight: bold;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link span:hover{
+  box-shadow: 0px 1px 10px #20bc5b, 0px 1px 10px #20bc5b, 0px 1px 8px #20bc5b, 0px 1px 12px #20bc5b;
+}*/
+
+
+
+
+/**//* SLIDER *//* SLIDER *//**/
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    color: #fff;
+}
+
+.slider .texto h3{
+  font-weight: bold;
+  margin-top: 27px;
+}
+
+.slider .texto a{
+  text-decoration: none;
+}
+
+.slider .texto h5{
+  padding: 25px 0 35px 0;
+  font-weight: normal;
+}
+
+.slider .texto h4{
+  background-color: #ffa902;
+  padding: 15px 0 17px 0;
+  border-radius: 55px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #180e2e;
+  box-shadow: 0px 1px 10px #fcba00, 0px 1px 10px #fcba00, 0px 1px 8px #fcba00, 0px 1px 12px #fcba00;
+}
+
+.slider .texto h4:hover{
+  background-color: #ffbd02;
+}
+
+
+
+/**//* APRESENTAÇÃO *//* APRESENTAÇÃO *//**//* APRESENTAÇÃO *//* APRESENTAÇÃO */
+
+.apresent-zimba{
+  background-color: #02040e;
+  padding: 111px 0 88px 0;
+}
+
+.apresent-zimba h4{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0db7ad;
+}
+
+.apresent-zimba h5{
+  font-weight: normal;
+  color: #fff;
+}
+
+.apresent-zimba img{
+  margin-top: 17px;
+}
+
+
+
+/**//* SERVIÇOS *//* SERVIÇOS *//**//* SERVIÇOS *//* SERVIÇOS *//* SERVIÇOS */
+
+.servicos{
+  background-color: #02040e;
+  padding: 80px 0;
+}
+
+.servicos h3{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0db7ad;
+}
+
+.servicos .zimba-card{
+  background-color: #081125;
+  padding: 0 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.servicos .zimba-card:hover{
+  background-color: #0a152d;
+  box-shadow: 0px 1px 7px #0a152d, 0px 1px 7px #0a152d, 0px 1px 7px #0a152d, 0px 1px 7px #0a152d;
+}
+
+.servicos .celula-1 h5{
+  padding: 0 0 55px 0;
+}
+
+.servicos h5{
+  color: #fff;
+  padding: 0 0 37px 0;
+  font-weight: normal;
+}
+
+.servicos h4{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 0 0 17px 0;
+}
+
+
+
+/**//* ENTRE-CONTATO 1 *//* ENTRE-CONTATO 1 *//**//* ENTRE-CONTATO 1 *//**/
+
+.entre-contato{
+  background-color: #02040e;
+  padding: 55px 0 77px 0;
+}
+
+.entre-contato h3{
+  font-weight: bold;
+  color: #25d366;
+}
+
+.entre-contato h5{
+  font-weight: normal;
+  color: #fff;
+}
+
+.entre-contato a{
+  text-decoration: none;
+}
+
+.entre-contato h4{
+  background-color: #25d366;
+  color: #02040e;
+  font-weight: bold;
+  padding: 20px 0 25px 0;
+  border-radius: 55px;
+  font-size: 1.2rem;
+  box-shadow: 0px 1px 10px #20bc5b, 0px 1px 10px #20bc5b, 0px 1px 8px #20bc5b, 0px 1px 12px #20bc5b;
+}
+
+.entre-contato h4:hover{
+  background-color: #3be47a;
+}
+
+
+
+/**//* PORTFOLIO *//* PORTFOLIO *//**//* PORTFOLIO *//**//**//* PORTFOLIO */
+
+.portfolio{
+  background-color: #02040e;
+  padding: 55px 0 0 0;
+}
+
+.portfolio h3{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0db7ad;
+}
+
+.portfolio h5{
+  color: #fff;
+  padding: 0 0 37px 0;
+  font-weight: normal;
+}
+
+.portfolio .col-lg-4{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/**//* ZIMBA-BREAK *//* ZIMBA-BREAK *//**//* ZIMBA-BREAK *//**//**//* ZIMBA-BREAK */
+
+.zimba-break{
+  background-color: #0db7ad;
+  padding: 65px 0 60px 0;
+  color: #030610;
+}
+
+.zimba-break h4{
+  font-weight: bold;
+}
+
+.zimba-break h5{
+  font-weight: normal;
+}
+
+
+
+/**//* LANDING-PAGES *//* LANDING-PAGES *//**//* LANDING-PAGES *//**//**//* LANDING-PAGES */
+
+
+.landing-pages{
+  padding: 70px 0;
+  background-color: #ece6e2;
+}
+
+.landing-pages h3{
+  font-weight: bold;
+}
+
+.landing-pages h2{
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.landing-pages a{
+  text-decoration: center;
+}
+
+.landing-pages h4{
+  background-color: #0db7ad;
+  color: #02040e;
+  padding: 15px 0 20px 0;
+  border-radius: 55px;
+  font-size: 1rem;
+  box-shadow: 0px 1px 10px #0db7ad, 0px 1px 10px #0db7ad, 0px 1px 8px #0db7ad, 0px 1px 12px #0db7ad;
+}
+
+.landing-pages h4:hover{
+  background-color: #1abcb2;
+}
+
+
+
+
+
+/**//* EAGLE EAGLE EAGLE *//* EAGLE EAGLE EAGLE *//**//* EAGLE EAGLE EAGLE *//**//**//* EAGLE EAGLE EAGLE */
+
+.slider-intro{
+    background-image: url(../imgs/background-slider-zimba-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.eagle{
+    background-image: url(../imgs/background-eagle-zimba-2.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 700px;
+}
+
+.eagle img{
+  padding: 77px 0 0 0;
+}
+
+
+
+/**//* FOOTER *//* FOOTER *//**//* FOOTER *//**//**//* FOOTER *//**//* FOOTER *//* FOOTER *//**/
+
+footer{
+  background-color: #161c1c;
+  padding: 15px 0 100px 0;
+  color: #fff;
+}
+
+footer h4{
+  font-weight: bold;
+  padding: 18px 0 0 0;
+}
+
+.last-section{
+  background-color: #1b2222;
+  padding: 8px 0 3px 0;
+}
+
+.last-section h5{
+  font-weight: normal;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MIDIA QUERIES *//* MIDIA QUERIES *//**//* MIDIA QUERIES *//* MIDIA QUERIES *//* MIDIA QUERIES */
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+@media(max-width: 992px){
+
+  .slider{
+    height: 800px;
+    text-align: center;
+  }
+
+  .slider br{
+    display: none;
+  }
+
+  .slider .symbol img{
+    padding: 33px 0;
+  }
+
+  .apresent-zimba{
+    text-align: center;
+  }
+
+  .apresent-zimba img{
+    padding: 33px 0 0 0;
+  }
+
+  .entre-contato{
+    text-align: center;
+  }
+
+  .entre-contato img{
+    padding: 15px 0;
+  }
+
+  .portfolio img{
+    width: 100%;
+  }
+
+  .zimba-break{
+    text-align: center;
+  }
+
+  .zimba-break img{
+    padding: 33px 0 12px 0;
+  }
+
+  .landing-pages h4{
+    margin-bottom: 60px;
+  }
+
+  .eagle{
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  footer h4{
+    padding: 55px 0 0 0;
+  }
+
+}
+
+
+@media(max-width: 768px){
+
+  .servicos .zimba-card{
+    margin: 5px 0;
+  }
+
+}
+
+
+@media(max-width: 435px){
+
+  .slider .texto h4{
+    font-size: 1.3rem;
+  }
+
+  .slider{
+    height: 865px;
+  }
+
+  .apresent-zimba{
+    padding: 88px 0 33px 0;
+  }
+
+  .entre-contato{
+    padding: 22px 0 55px 0;
+  }
+
+  .eagle{
+    height: 600px;
+  }
+  
+}
+
+
+@media(max-width: 395px){
+
+  .slider{
+    height: 825px;
+  }
+
+  .eagle{
+    height: 500px;
+  }
+
+  .topo img{
+    width: 165px;
+  }
+
+  .slider-intro h5{
+    font-size: 1.1rem;
+  }
+
+  .slider .texto h4{
+    font-size: 1.1rem;
+  }
+
+  .apresent-zimba h5{
+    font-size: 1.1rem;
+  }
+
+}
