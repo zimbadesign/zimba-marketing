@@ -260,7 +260,7 @@ html{scroll-behavior: smooth;}
 
 .zimba-break{
   background-color: #0db7ad;
-  padding: 65px 0 60px 0;
+  padding: 65px 0;
   color: #030610;
 }
 
@@ -297,16 +297,16 @@ html{scroll-behavior: smooth;}
 }
 
 .landing-pages h4{
-  background-color: #0db7ad;
+  background-color: #ffa902;
   color: #02040e;
   padding: 15px 0 20px 0;
   border-radius: 55px;
   font-size: 1rem;
-  box-shadow: 0px 1px 10px #0db7ad, 0px 1px 10px #0db7ad, 0px 1px 8px #0db7ad, 0px 1px 12px #0db7ad;
+  box-shadow: 0px 1px 10px #ffa902, 0px 1px 10px #ffa902, 0px 1px 8px #ffa902, 0px 1px 12px #ffa902;
 }
 
 .landing-pages h4:hover{
-  background-color: #1abcb2;
+  background-color: #ffbd02;
 }
 
 
