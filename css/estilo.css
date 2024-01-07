@@ -38,16 +38,6 @@ html{scroll-behavior: smooth;}
 
 /**//* TOPO *//* TOPO *//**//* TOPO *//* TOPO *//* TOPO *//**///* TOPO *//* TOPO */
 
-
-.slider-intro{
-    background-image: url(../imgs/background-slider-zimba-1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-
 .topo{
   padding: 7px 0 7px 0;
 }
@@ -85,6 +75,15 @@ html{scroll-behavior: smooth;}
 
 
 /**//* SLIDER *//* SLIDER *//**/
+
+.slider-intro{
+    background-image: url(../imgs/background-slider-zimba-1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 .slider{
     display: flex;
@@ -314,14 +313,6 @@ html{scroll-behavior: smooth;}
 
 
 /**//* EAGLE EAGLE EAGLE *//* EAGLE EAGLE EAGLE *//**//* EAGLE EAGLE EAGLE *//**//**//* EAGLE EAGLE EAGLE */
-
-.slider-intro{
-    background-image: url(../imgs/background-slider-zimba-1.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
 
 
 .eagle{
